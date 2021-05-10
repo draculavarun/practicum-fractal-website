@@ -1,0 +1,181 @@
+/* Written by Varun Murugaraj */
+
+.cursor-pointer{
+    cursor:default;
+}
+
+body{
+    background-color:white;
+    background-image:url('fractal.jpg');
+    height:1000px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+
+.container{
+    width:70%;
+    height:80%;
+    background-color:white;
+    position: relative;
+    top:10%;
+    border-radius:25px;
+    overflow-y:scroll;
+}
+
+
+.card{
+    /* border:2px solid red; */
+    
+    margin: 3%;
+    display: flex;
+    box-shadow:20px 20px 10px grey;
+    border-radius: 15px;
+}
+
+.card-container{
+    display: flex;
+}
+
+.fun{
+    height:68%;
+}
+
+.video{
+    padding:2% 22%;
+    
+}
+
+.heading{
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+
+.question{
+    font-weight:400;
+ 
+}
+
+.answer{
+    font-family: cursive;
+    padding:0px;
+    margin-top:11px;
+
+}
+
+.code-block{
+
+     background-image: url("editor_back.jpeg");
+     height:101%;
+
+}
+
+.code-block div{
+    position: relative;
+    left: 5%;
+    top: 0%;
+    font-size:19px;
+}
+
+
+.pop-up{
+    
+    position: absolute;
+    width:10%;
+    height:10%;
+    top:6%;
+    left:11%;
+    z-index: 1000;
+    display:none;
+    
+
+
+}
+.pop-up img{
+    border:2px solid black;
+}
+.pop-up div{
+    font-size: 20px;
+    text-align: right;
+    
+    width: 704px;
+    
+
+}
+.code-block button{
+    position: absolute;
+    left:46%;
+    z-index: 1000;
+    
+}
+
+.objectives{
+   
+   background-color: #f8f9fa;
+   border:2px solid #adb3ba;
+   border-radius: 15px;
+   position: relative;
+   top: 12px;
+   left: 56px;
+   width: 30%;
+   margin: 20px 0px;
+   /* height:10%; */
+   
+}
+
+.content{
+    border:2px solid #adb3ba;
+    overflow-y: scroll;
+    height:61%;
+}
+
+
+.content-block{
+    font-family:cursive;
+    padding:10px;
+
+}
+
+li{
+    margin:11px 0px;
+}
+
+.hidden-content{
+    position:relative;
+    display: none;
+    /* top:45%; */
+    background-color:#c7bdbd;
+    width:90%;
+    border-radius:5px;
+    border:1px solid #5c5a5a;
+}
+
+.link{
+    color:#1b76fd;
+    cursor:pointer;
+    
+}
+
+
+.img-class{
+    display:none;
+    position:relative;
+    width:32%;
+    height:32%;
+    border:1px solid #5c5a5a; 
+}
+.img-class:active{
+    display:block;
+}
+
+.icon{
+    background-color:yellow;
+    padding:2px;
+    border-radius:50%;
+    width:40px;
+    cursor:pointer;
+}
+
